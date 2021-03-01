@@ -37,7 +37,6 @@ let rect = svg.append('rect')// The square we want to click on
   .attr('width', '20%')
   .attr('height', '20%')
   .attr('fill', 'yellow')
-	.on("click", function(){dispatch.call('changeColor', this);})
 
 let circle = svg.append('circle') // The circle we want to change color when the square is clicked
   .attr('cx', '70%')
